@@ -6,10 +6,25 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ]
+    },
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "outDir": "dist"
   },
-  "include": ["src", "playwright.config.ts"]
+  "include": [
+    "src",
+    "playwright.config.ts"
+  ]
 }
