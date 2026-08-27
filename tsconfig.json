@@ -12,6 +12,18 @@
     "baseUrl": ".",
     "ignoreDeprecations": "6.0",
     "paths": {
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@fixtures/*": [
+        "src/fixtures/*"
+      ],
+      "@testdata/*": [
+        "src/testdata/*"
+      ],
       "@utils/*": [
         "src/utils/*"
       ],

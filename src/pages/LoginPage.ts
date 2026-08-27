@@ -42,4 +42,8 @@ export class LoginPage extends BasePage {
         await this.el.click(this.loginButton);
     }
 
+    async waitForLoginButtonHidden(): Promise<void> {
+        await this.el.waitForHidden(this.loginButton);
+    }
+
 }
