@@ -80,6 +80,14 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
+    {
+      name: 'api',
+      testDir: './src/api',
+      use: {
+        baseURL: process.env.API_BASE_URL || 'https://restful-booker.herokuapp.com'
+      }
+    },
+
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
