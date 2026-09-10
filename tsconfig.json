@@ -27,6 +27,9 @@
       "@utils/*": [
         "src/utils/*"
       ],
+      "@tests/*": [
+        "./src/tests/*"
+      ],
       "@pages/*": [
         "src/pages/*"
       ]
