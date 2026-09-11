@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "commonjs",
+    "module": "preserve",
     "moduleResolution": "bundler",
     "strict": true,
     "esModuleInterop": true,
@@ -9,26 +9,24 @@
     "types": [
       "node"
     ],
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0",
     "paths": {
       "@api/*": [
-        "src/api/*"
+        "./src/api/*"
       ],
       "@config/*": [
-        "src/config/*"
+        "./src/config/*"
       ],
       "@fixtures/*": [
-        "src/fixtures/*"
+        "./src/fixtures/*"
       ],
       "@testdata/*": [
-        "src/testdata/*"
+        "./src/testdata/*"
       ],
       "@utils/*": [
-        "src/utils/*"
+        "./src/utils/*"
       ],
       "@pages/*": [
-        "src/pages/*"
+        "./src/pages/*"
       ]
     },
     "forceConsistentCasingInFileNames": true,
